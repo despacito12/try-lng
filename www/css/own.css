@@ -1,0 +1,123 @@
+body{
+  font-family: 'Heebo', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+#app{
+  margin-top: 50px;
+}
+
+.calculator{
+  width: 444px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #0091EA;
+  border-radius: 5%;
+}
+
+.output-screen{
+  height: 100px;
+  color: #fafafa;
+  text-align: right;
+  padding: 0px 20px;
+  font-family: 'Source Code Pro', monospace;
+}
+.output-screen h3{
+  font-size: 3em;
+}
+
+.country{
+  text-align: center;
+  font-weight: 300;
+}
+
+.history{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 2em;
+  margin-bottom: 10px;
+}
+
+button{
+  width: 70px;
+  height: 70px;
+}
+.equal-button{
+  width: 140px;
+  color: white;
+  background: none;
+  display: block;
+  border: none;
+  outline: none; 
+  font-size: 2em;
+}
+
+.calc-buttons{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.other-buttons{
+  display: flex;
+  flex-flow: column wrap;
+  width: 70px;
+  height: 280px;
+  background: #FF4081;
+}
+.tombol-lain{
+  color: #fafafa;
+  background: none;
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 2em;
+}
+.allclear{
+  flex: 2;
+}
+
+.number-buttons{
+  display: flex;
+  flex-flow: row wrap;
+  width: 210px;
+  height: 280px;
+  background: #80D8FF;
+}
+.tombol-angka{
+  color: black;
+  background: none;
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 2em;
+}
+.nol {
+  flex: 2;
+}
+
+.operator-buttons{
+  display: flex;
+  flex-flow: row wrap;
+  width: 140px;
+  height: 280px;
+  background: #E040FB;
+}
+.tombol-operator{
+  color: #fafafa;
+  background: none;
+  display: block;
+  border: none;
+  outline: none; 
+  font-size: 2em;
+}
+
+.footer {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px;
+}
